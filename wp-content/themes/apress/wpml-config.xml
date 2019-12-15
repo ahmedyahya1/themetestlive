@@ -1,0 +1,192 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">zt_portfolio</custom-type>
+    <custom-type translate="1">zt_testimonial</custom-type>
+    <custom-type translate="1">zt_team</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">catportfolio</taxonomy>
+    <taxonomy translate="1">catteam</taxonomy>
+  </taxonomies>
+  <admin-texts>
+	<key name="apress_data">
+		<key name="header_phone_number" />
+		<key name="header_fax_number" />
+		<key name="header_email" />
+		<key name="header_tagline" />
+		<key name="header_working_hours" />
+		<key name="header_address" />
+		<key name="header_ad_section" />
+		<key name="header_html_text1" />
+		<key name="header_html_text2" />
+		<key name="header_html_text2" />
+		<key name="header_html_text3" />
+		<key name="special_button_text" />
+		<key name="header_special_button2" />
+		<key name="copyright_text" />		
+		<key name="blog_title" />
+		<key name="post_continue_reading_modify" />
+	</key> 
+</admin-texts>
+<shortcodes>
+    <shortcode>
+      <tag>apress_blog_styles</tag>
+      <attributes>
+        <attribute>continuereadingmodify</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_callto_action</tag>
+      <attributes>
+        <attribute>calltoaction_text</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_counter</tag>
+      <attributes>
+        <attribute>circle_text</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_gradient_icon_box</tag>
+      <attributes>
+        <attribute>description</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_heading</tag>
+      <attributes>
+        <attribute>sub_title</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_icon_box</tag>
+      <attributes>
+        <attribute>contentboxtitle</attribute>
+		<attribute>contentboxarea</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_imagebox</tag>
+      <attributes>
+        <attribute>imagebox_title</attribute>
+		<attribute>imagebox_description</attribute>
+		<attribute>imagebox_button_text</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_imagebox_new</tag>
+      <attributes>
+        <attribute>featured_text</attribute>
+		<attribute>title</attribute>
+		<attribute>description</attribute>
+		<attribute>button_text</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_info_list</tag>
+      <attributes>
+        <attribute>title</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_lightbox</tag>
+      <attributes>
+        <attribute>link_text</attribute>
+		<attribute>link_hover_caption</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_list</tag>
+      <attributes>
+        <attribute>list_title</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_media_post</tag>
+      <attributes>
+        <attribute>box_title</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_post_slider</tag>
+      <attributes>
+        <attribute>continuereadingmodify</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_pricing_list</tag>
+      <attributes>
+        <attribute>pricing_list_title</attribute>
+		<attribute>pricing_list_price</attribute>
+		<attribute>description_text</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_pricing_table</tag>
+      <attributes>
+        <attribute>title</attribute>
+		<attribute>currency_symbol</attribute>
+		<attribute>price</attribute>
+		<attribute>recurring_fee</attribute>
+		<attribute>button_text</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_process</tag>
+      <attributes>
+        <attribute>title</attribute>
+		<attribute>process_step</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_progress_bar</tag>
+      <attributes>
+        <attribute>title</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_testimonial</tag>
+      <attributes>
+        <attribute>by</attribute>
+		<attribute>designation</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_text_link_box</tag>
+      <attributes>
+        <attribute>readmore_text</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_text_separator</tag>
+      <attributes>
+        <attribute>title</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_underline</tag>
+      <attributes>
+        <attribute>underline</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_post_type_carousel</tag>
+      <attributes>
+        <attribute>button_text</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_portfolio_styles</tag>
+      <attributes>
+        <attribute>portfoliofilter_des</attribute>
+      </attributes>
+    </shortcode>
+	<shortcode>
+      <tag>apress_portfolio_slider</tag>
+      <attributes>
+        <attribute>portfolio_viewmore</attribute>
+      </attributes>
+    </shortcode>
+  </shortcodes>
+</wpml-config>

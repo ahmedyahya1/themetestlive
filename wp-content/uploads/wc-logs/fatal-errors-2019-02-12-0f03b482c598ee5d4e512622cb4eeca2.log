@@ -1,0 +1,45 @@
+2019-02-12T14:46:29+00:00 CRITICAL Uncaught Error: Call to undefined method DZSHelpers::remove_query_arg() in /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php:6228
+Stack trace:
+#0 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(6355): DZSWooTable->generate_tag_for_child(Array, Array, Object(WP_Post))
+#1 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(5243): DZSWooTable->generate_layer_button(Array, Array, Object(WP_Post))
+#2 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(4332): DZSWooTable->generate_layer_item(Array, Array, Object(WP_Post), '<div class="woo...')
+#3 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(3958): DZSWooTable->generate_layer_item(Array, Array, Object(WP_Post), '<div class="woo...')
+#4 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/shortcodegenerator/shortcode-generator.php(96): DZSWooTable->shortcode_woo_table(Array)
+#5 /home/vcap/app/htdocs/w in /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php on line 6228
+
+2019-02-12T14:47:47+00:00 CRITICAL Uncaught Error: Call to undefined method DZSHelpers::remove_query_arg() in /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php:6228
+Stack trace:
+#0 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(6355): DZSWooTable->generate_tag_for_child(Array, Array, Object(WP_Post))
+#1 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(5243): DZSWooTable->generate_layer_button(Array, Array, Object(WP_Post))
+#2 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(4332): DZSWooTable->generate_layer_item(Array, Array, Object(WP_Post), '<div class="woo...')
+#3 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(3958): DZSWooTable->generate_layer_item(Array, Array, Object(WP_Post), '<div class="woo...')
+#4 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/shortcodegenerator/shortcode-generator.php(96): DZSWooTable->shortcode_woo_table(Array)
+#5 /home/vcap/app/htdocs/w in /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php on line 6228
+
+2019-02-12T16:11:20+00:00 CRITICAL Uncaught Error: Call to undefined method DZSHelpers::remove_query_arg() in /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php:6228
+Stack trace:
+#0 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(6355): DZSWooTable->generate_tag_for_child(Array, Array, Object(WP_Post))
+#1 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(5243): DZSWooTable->generate_layer_button(Array, Array, Object(WP_Post))
+#2 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(4332): DZSWooTable->generate_layer_item(Array, Array, Object(WP_Post), '<div class="woo...')
+#3 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(3958): DZSWooTable->generate_layer_item(Array, Array, Object(WP_Post), '<div class="woo...')
+#4 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/shortcodegenerator/shortcode-generator.php(96): DZSWooTable->shortcode_woo_table(Array)
+#5 /home/vcap/app/htdocs/w in /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php on line 6228
+
+2019-02-12T16:13:56+00:00 CRITICAL Uncaught Error: Call to undefined method DZSHelpers::remove_query_arg() in /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php:6228
+Stack trace:
+#0 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(6355): DZSWooTable->generate_tag_for_child(Array, Array, Object(WP_Post))
+#1 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(5243): DZSWooTable->generate_layer_button(Array, Array, Object(WP_Post))
+#2 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(4332): DZSWooTable->generate_layer_item(Array, Array, Object(WP_Post), '<div class="woo...')
+#3 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(3958): DZSWooTable->generate_layer_item(Array, Array, Object(WP_Post), '<div class="woo...')
+#4 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/shortcodegenerator/shortcode-generator.php(96): DZSWooTable->shortcode_woo_table(Array)
+#5 /home/vcap/app/htdocs/w in /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php on line 6228
+
+2019-02-12T16:14:38+00:00 CRITICAL Uncaught Error: Call to undefined method DZSHelpers::remove_query_arg() in /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php:6228
+Stack trace:
+#0 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(6355): DZSWooTable->generate_tag_for_child(Array, Array, Object(WP_Post))
+#1 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(5243): DZSWooTable->generate_layer_button(Array, Array, Object(WP_Post))
+#2 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(4332): DZSWooTable->generate_layer_item(Array, Array, Object(WP_Post), '<div class="woo...')
+#3 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php(3958): DZSWooTable->generate_layer_item(Array, Array, Object(WP_Post), '<div class="woo...')
+#4 /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/shortcodegenerator/shortcode-generator.php(96): DZSWooTable->shortcode_woo_table(Array)
+#5 /home/vcap/app/htdocs/w in /home/vcap/app/htdocs/wordpress/wp-content/plugins/dzs-wootable/class-dzswtl.php on line 6228
+

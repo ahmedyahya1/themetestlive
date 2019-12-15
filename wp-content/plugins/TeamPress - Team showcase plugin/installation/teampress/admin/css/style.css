@@ -1,0 +1,30 @@
+.cmb-row.column-2 {
+    width: 50%;
+    display: inline-block;
+}
+.cmb-row.column-4 {
+    width: 25%;
+    display: inline-block;
+}
+.cmb-row.column-3 {
+    width: 33.333333%;
+    display: inline-block;
+}
+.cmb-row.column-3 > div {
+    width: 100% !important;
+}
+.post-type-ex_team .cmb-row > div{
+	padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.cmb-type-group .cmb-row.column-2 .cmb-th, .cmb2-postbox .cmb-row.column-2 .cmb-th{ width:32%}
+.cmb-type-group .cmb-row.column-2 .cmb-th+.cmb-td, .cmb2-postbox .cmb-row.column-2 .cmb-th+.cmb-td{ width: 66%}
+.cmb-row.column-2 .regular-text,
+.cmb-row.column-4 .regular-text{ width:auto}
+.post-type-team_scbd .cmb2-wrap select{ min-width:160px;}
+#adminmenu #menu-posts-ex_team ul>li>a:empty{ display:none;}
+.extp-layout-carousel .hide-incarousel,
+.extp-layout-table .hide-intable,
+.extp-layout-list .hide-inlist,
+.extp-layout-grid .hide-ingrid{ opacity:.3; pointer-events: none;}

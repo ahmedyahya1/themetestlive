@@ -1,0 +1,758 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Team press - Team showcase wordpress plugin</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="ExThemes">
+	<meta name="copyright" content="ExThemes">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2016-08-27T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+    <script>
+	jQuery(document).ready(function() {
+		jQuery('.copy_sc').on('click',function(){
+			var copyText = $(this).next();
+			copyText.select();
+			document.execCommand("Copy");
+			alert("Copied the text: " + copyText.value);
+		});
+	});
+    
+    </script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{
+			font-size: 25px;
+			font-weight: bold;
+			text-align: center;
+			margin: 40px 0;
+			text-transform: uppercase;
+			color: #00BCD4;
+			text-decoration:none;
+			height: 40px;
+			min-height: 40px;
+			line-height: 40px;
+		}
+		a{color:#00BCD4;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#00BCD4;color:#fff;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+		img {
+			border: solid 1px #999;
+			padding: 5px;
+			margin-top: 5px;
+			margin-bottom: 10px;
+			max-width: 100%;
+		}
+		#documenter_sidebar ul a {
+			display: block;
+			border-bottom: 1px solid #f2f2f2;
+			padding: 10px 15px;
+			text-align: right;
+			text-transform:uppercase;
+		}
+		#documenter_sidebar ul,
+		#documenter_sidebar ul a:first-child{ border-top:0}
+		#documenter_sidebar ul li:last-child a{ border-bottom:0;}
+		#documenter_sidebar, #documenter_sidebar ul a {
+			background-color: #ffffff;
+			color: #e8e8e8;
+		}
+		#documenter_content p{ font-size:13px;}
+		#documenter_sidebar ul a {
+			color: #000;
+		}
+		.prettyprint{ white-space:pre-wrap;}
+		/*.tp-image-shadow{border:0; box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15)}*/
+	</style>
+	
+</head>
+<body class="documenter-project-itemname">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo">TeamPress</a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#first-know">First to know</a></li>
+				
+			<li><a href="#introduc" title="Introduction">Introduction</a></li>
+			<li><a href="#install-file" title="Installation">Installation</a></li>
+            <li><a href="#sample-data" title="Installation">Install Sample Data</a></li>
+			<li><a href="#create-teaminfo" title="Creating Member Information">Creating Member</a></li>
+            <li><a href="#edit-member" title="Edit member">Editing member</a></li>
+            <li><a href="#create-category" title="Creating, Editing Category">Creating, Editing Category</a></li>
+            <li><a href="#shortcode" title="Shortcode">Shortcode</a>
+            	<ul>
+            		
+            		<li><a href="#shortcode-teampress-grid" title="TeamPress Grid">TeamPress Grid</a></li>
+                	<li><a href="#shortcode-teampress-list" title="TeamPress List">TeamPress List</a></li>
+                	<li><a href="#shortcode-teampress-table" title="TeamPress Table">TeamPress Table</a></li>
+                	<li><a href="#shortcode-teampress-carousel" title="TeamPress Carousel">TeamPress Carousel</a></li>
+					<li><a href="#shortcode-teampress-mansory" title="TeamPress Mansory">TeamPress Mansory</a></li>
+                </ul>
+            </li>
+            <li><a href="#shortcode-builder" title="Shortcode builder">Shortcode builder</a></li>
+            <li><a href="#general-setting" title="General Setting">General Setting</a></li>
+			<li><a href="#usage" title="Usage">Usage</a></li>
+            <li><a href="#translation" title="Translation">Translation</a></li>
+			<li><a href="#sources_and_credits" title="Sources and Credits">Sources and Credits</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright ExThemes 2016<br>
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="first-know">
+	<h1>TeamPress</h1>
+	<h2>Team showcase wordpress plugin</h2>
+	<div id="documenter_buttons">
+	</div>
+	<hr>
+	<ul>
+	<li>Latest update: 26 November 2018</li>
+	<li>By: ExThemes</li>
+	
+	<li>Email: <a href="mailto:sp.exthemes.net@gmail.com">sp.exthemes.net@gmail.com</a></li>
+	</ul>
+	<p>Thank you for purchasing my plugin. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/ex-themes">here</a>. Thanks so much!</p>
+	</section>
+	
+	<section id="introduc">
+	<div class="page-header"><h3>Introduction</h3><hr class="notop"></div>
+<p>
+	TeamPress is a Wordpress plugin that helps you create information about your team members/staff include name, image, description, links to social account and show it easily on your site. By this teampress plugin you can display all information with any styles, layouts and anywhere via shortcodes.</p>
+<h5><strong>Features list</strong></h5>
+<ul>
+	<li>60+ Styles support</li>
+    <li>Fully responsive and mobile ready.</li>
+    <li>Unlimited TeamPress anywhere.</li>
+    <li>TeamPress with many columns(2, 3, 4, 5)</li>
+    <li>TeamPress with Grid, List, Table, Carousel(Slider view)</li>
+    <li>Ajax load more members, search, alphabetical filter, pagination</li>
+    <li>Support show full content with Lightbox, Modal and Colllapse</li>
+    <li>Unlimited TeamPress Color. You can set color for all or each style</li>
+    <li>Support category - allows you can create unlimited team group </li>
+    <li>Vertical and horizontal support</li>
+    <li>Flat style include</li>
+    <li>Unlimited customize with font, color</li>
+    <li>Visual Composer support</li>
+    <li>Supper easy configuration</li>
+    <li>And more …</li>
+</ul>
+</section>
+<section id="install-file">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+<h5>The Full Package includes these following files and folders:</h5>
+<ul>
+  <li><b>Documentation</b>&nbsp;folder - Contain this document</li>
+  <li><b>Installation Files</b>&nbsp;folder - Contain installable file plugin<br>
+  	<ul>
+      <li><b>teampress.zip</b>&nbsp;folder - WordPress Plugin Installation file</li>
+    </ul>
+  </li>
+</ul>
+<h5><b>Install via Wordpress admin</b></h5>
+<ol>
+  <li>Login to WordPress Admin</li>
+  <li>In the left menu panel go to&nbsp;<b>Plugins &gt; Add New &gt; Upload</b>&nbsp;to install plugin</li>
+  <li>Click&nbsp;<b>Upload</b></li>
+  <li><b>Browse</b>&nbsp;your download package to select installation files</li>
+  <li>Click&nbsp;<b>Install Now</b>&nbsp;button</li>
+  <li>Once it's uploaded, click the&nbsp;<b>Activate</b>&nbsp;link</li>
+</ol>
+<h5><b>Install via FTP Account</b></h5>
+<ol>
+  <li>Use your FTP software to browse to&nbsp;<b>wp-content/plugins</b>&nbsp;folder to install plugin</li>
+  <li>Extract the installation files to their corresponding folders, for example&nbsp;<b><em>teampress.zip</em></b>&nbsp;to&nbsp;<b>teampress</b>&nbsp;and upload to server</li>
+  <li>Once it's uploaded, go to your WordPress Admin, browse to&nbsp;<b>Plugins &gt; Installed Plugins</b></li>
+  <li>Click the&nbsp;<b>Activate</b>&nbsp;link</li>
+</ol>
+<h5><b>Update</b></h5>
+<ol>
+  <li>Deactive "TeamPress" plugin by going to Plugins > Deactive "TeamPress" plugin</li>
+  <li>Delete older version by clicking on Delete link. Confirm to delete.</li>
+  <li>Update and re-install new version.</li>
+</ol>
+
+
+</section>
+
+
+<section id="sample-data">
+	<div class="page-header"><h3>Install Sample Data</h3><hr class="notop"></div>
+	<div>
+		To install sample data as seen on our demo page, following these steps</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<strong>&nbsp;Make sure you have installed WP Teampress plugins</strong></div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<strong>Step 1.</strong>&nbsp;Go to <b>Tools &gt; Import</b>, then click on <b>Wordpress</b></div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<strong>Step 2.</strong>&nbsp;If it is not yet installed before, you have to install it. On the popup window, click on "Install Now"</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<strong>Step 3.</strong>&nbsp;After installed successfully, click on <b>Activate Plugin &amp; Run Importer</b></div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<strong>Step 4.</strong>&nbsp;Browse for FULL_DOWNLOAD_PACKET/installation/wp-teampress/sample-data/sample-data.xml (or download it <a href="https://www.dropbox.com/s/qkcy2rihciitkdh/sample-data.xml?dl=0">here</a>) and click <b>Upload File and Import</b>.</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<strong>Step 5.</strong>&nbsp;After uploaded, the confirmation page appears. Check the <b>Download and import file attachments</b> option and click <b>Submit</b>. <span style="color:red">If you have trouble with importing (it might breaks in the middle due to long execution time), try again with this option Unchecked!</span></div>
+	<div>
+		&nbsp;</div>
+	<div class="clear"><!-- --></div>
+	<div><strong>Step 6.</strong>&nbsp;OK, done!</div>
+    <hr>
+</section>
+<section id="create-teaminfo">
+    <div class="page-header"><h3>Creating TeamPress</h3><hr class="notop"></div>
+    <p>
+    	<iframe width="955" height="455" src="https://www.youtube.com/embed/QnRo9d-0n2A?ref=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </p>
+    <p>1. Go To Wordpress Admin > Team > Add New Member</p>
+    <img class="tp-image-shadow" src="assets/images/new_team.png" alt="" style="max-width:100%"/>
+    <hr>
+    <p>2. Set a title, description, featured image and required field of the teampress </p>
+    <img class="tp-image-shadow" src="assets/images/create_team2.png" alt="" style="max-width:1000px"/>
+    <hr>
+    <p>3. Display</p>
+    <img class="tp-image-shadow" src="assets/images/display_team2.png" alt="" style="max-width:1000px"/>
+    <p>Display when hover</p>
+    <img class="tp-image-shadow" src="assets/images/display_team3.png" alt="" style="max-width:1000px"/>
+    <hr>
+</section>
+
+<section id="edit-member">
+    <div class="page-header"><h3>Edit member information detail</h3><hr class="notop"></div>
+    <p>1. Go To Wordpress Admin > Team > Member</p>
+    <img class="tp-image-shadow" src="assets/images/manage_member.png" alt="" style="max-width:100%"/>
+    <hr>
+    <p>2. Click title to edit each member, after edit press update button to finish</p>
+    <img class="tp-image-shadow" src="assets/images/edit_member.png" alt="" style="max-width:100%"/>
+    <hr>
+</section>
+
+<section id="create-category">
+    <div class="page-header"><h3>Creating, Editing Category</h3><hr class="notop"></div>
+    <h4>Create category</h4>
+    <p>Go To Wordpress Admin > Team > Categories > Input name, slug, description and press Add new category button</p>
+    <img class="tp-image-shadow" src="assets/images/create_category.png" alt="" style="max-width:100%"/>
+    <hr>
+    <h4>Edit category</h4>
+    <p>1. Click name of category to edit category detail </p>
+    <img class="tp-image-shadow" src="assets/images/edit_category_1.png" alt="" style="max-width:1000px"/>
+    <p>2. Hover name of category to quick edit category detail </p>
+    <img class="tp-image-shadow" src="assets/images/edit_category_2.png" alt="" style="max-width:1000px"/>
+    <p>3. Click count of each category to view list member in this category </p>
+    <img class="tp-image-shadow" src="assets/images/edit_category_3.png" alt="" style="max-width:1000px"/>
+    <p>4. Hover name of member to quick edit category </p>
+    <img class="tp-image-shadow" src="assets/images/edit_category_4.png" alt="" style="max-width:1000px"/>
+    <hr>
+</section>
+<section id="shortcode">
+    <div class="page-header"><h3>Shortcode</h3><hr class="notop"></div>
+    <h5 style="padding: 10px 15px; border: 1px dashed red;">You could use <a href="#shortcode-builder" title="Shortcode builder">Shortcode builder</a> feature to generate shortcode instead using default shortcode</h5>
+    <h5 style="padding: 10px 15px; border: 1px dashed red;">TeamPress shortcode also has supported: <span style="color:red">Visual Composer</span>, <span style="color:red">Elementor</span> and <span style="color:red">SiteOrigin</span> page builder so you could use those page builder to config shortcode</h5>
+
+    <h5 id="shortcode-teampress-grid"><b>TeamPress Grid</b></h5>
+	<p><i>TeamPress Grid is a shortcode for displaying teampress on grid.</i></p>
+	<textarea disabled>[ex_tpgrid style="" column="" count="" posts_per_page="" ids="" cat="" fullcontent_in="" search_box="" alphab_filter="" page_navi="" number_excerpt="" masonry="" order=""  orderby="" meta_key=""]
+	</textarea>
+	<p>
+    	<ul>
+        	<li>style - Select number style(Default 1)
+                <ul>
+                    <li>Team grid - stye start 1 to 20 (example style="1")</li>
+                    <li>Team Image hover grid -stye start img-1 to img-10 (example style="img-1")</li>
+                </ul>
+            </li>
+            <li>column - A number of items to show per line. Default 2</li>
+            <li>count - A number items will be showed. Default total items(Example: your team have 23 members but you only want to display 20 members, you can set count="20")</li>
+            <li>posts_per_page -  relates param page_navi
+				<ul>
+                    <li>page_navi="loadmore", posts_per_page is number of items to add in the end after event load more (Example page_navi="loadmore" posts_per_page="3" - show 3 items in the end after click button load more)</li>
+                    <li>page_navi=""  (Pagination), posts_per_page is number of items to show per page(Example page_navi="" posts_per_page="3" - show 3 items in per page).</li>
+                </ul>
+            </li>
+            <li>ids - List of IDs to query, separated by a comma(example ids="1,2,3")</li>
+            <li>cat - List of category ids (or slug), separated by a comma(example cat="designer" or cat="1")</li>
+            <li>fullcontent_in - type of display full content(Default fullcontent_in="", no display full content)
+            	<ul>
+                    <li>fullcontent_in="lightbox", full content display in lightbox(pop up in center screen)</li>
+                    <li>fullcontent_in="collapse", full content display in collapse after items</li>
+                    <li>fullcontent_in="modal", full content display in pop up in the right screen</li>
+                </ul>
+            </li>
+            <li>search_box - Show or hide search and category filter(Default hidden)
+				<ul>
+                    <li>search_box="hide"</li>
+                    <li>search_box="show"</li>
+                </ul>
+            </li>
+            <li>alphab_filter - Show or hide alphabetical filter(Default hidden)
+				<ul>
+                    <li>alphab_filter="" - hide</li>
+                    <li>alphab_filter="yes" - show</li>
+                </ul>
+            </li>
+            <li>page_navi -  type of display(load more event or pagination) refer with param posts_per_page
+				<ul>
+                    <li>page_navi="loadmore", add items in the end after event load more </li>
+                    <li>page_navi="" ,Pagination</li>
+                </ul>
+            </li>
+            <li>number_excerpt - Enter number of excerpt to show(Default 10), example number_excerpt="20"</li>
+            <li>order - Order ascending (order="ASC") or descending (order="DESC")</li>
+            <li>orderby - Choose order condition
+            	<ul>
+                	<li>'date' - Order by date. </li>
+                	<li>'ID' - Order by post id. Note the captialization.</li>
+                    <li>'author' - Order by author. </li>
+                    <li>'title' - Order by title. </li>
+                    <li>'name' - Order by post name (post slug). </li>
+                    <li>'modified' - Order by last modified date. </li>
+                    <li>'parent' - Order by post/page parent id. </li>
+                    <li>'rand' - Random order. </li>
+                    <li>'menu_order' - Order by Page Order. Used most often for Pages (Order field in the Edit Page Attributes box) and for Attachments (the integer fields in the Insert / Upload Media Gallery dialog), but could be used for any post type with distinct 'menu_order' values (they all default to 0). </li>
+                    <li>'meta_value' - Note that a 'meta_key=keyname' must also be present in the query. Note also that the sorting will be alphabetical which is fine for strings (i.e. words), but can be unexpected for numbers (e.g. 1, 3, 34, 4, 56, 6, etc, rather than 1, 3, 4, 6, 34, 56 as you might naturally expect). Use 'meta_value_num' instead for numeric values. </li>
+                    <li>'meta_value_num' - Order by numeric meta value (available with Version 2.8). Also note that a 'meta_key=keyname' must also be present in the query. This value allows for numerical sorting as noted above in 'meta_value'.</li>
+                    <li>'post__in' - Preserve post ID order given in the ids array</li>
+                    <li>'none' - No order</li>
+                </ul>
+            </li>
+            <li>meta_key - Enter custom field key, Show posts associated with a certain custom field</li>
+            <li>masonry -  Apply mansory layout or not
+				<ul>
+                    <li>masonry="yes", apply </li>
+                    <li>masonry="" ,not apply</li>
+                </ul>
+            </li>
+        </ul>
+    </p>
+	<h5>Example: Style 1 (3 columns) with Collapse, Alphabetical filter, Pagination and Search box(click <a href="https://exthemes.net/teampress/style-1/">here</a> to view detail demo)</h5>
+	<textarea disabled>[ex_tpgrid style="1" column="3" count="23" posts_per_page="3" fullcontent_in="collapse" search_box="show" alphab_filter="yes"]</textarea>
+	<div class="teampress-demo-image" style="text-align: center;">
+	<img class="tp-image-shadow" src="assets/images/team_grid_style_1.png" alt="" style="max-width:100%; "/>
+	<img class="tp-image-shadow" src="assets/images/team_grid_style_1_collapse.png" alt="" style="max-width:100%"/>
+	</div>
+
+    <h5 id="shortcode-teampress-list"><b>Team list</b></h5>
+    <p><i>Team list is a shortcode for displaying teampres on listing .</i></p>
+    <textarea disabled>[ex_tplist style="" count="" posts_per_page="" ids="" cat="" fullcontent_in="" search_box="" alphab_filter="" page_navi="" number_excerpt="" orderby="" meta_key=""]
+    </textarea>
+    <p>
+    	<ul>
+        	<li>style - Select number style start 1 to 3(example style="1")</li>
+            <li>count - A number items will be showed. Default total items(Example: your team have 23 members but you only want to display 20 members, you can set count="20")</li>
+            <li>posts_per_page -  relates param page_navi
+				<ul>
+                    <li>page_navi="loadmore", posts_per_page is number of items to add in the end after event load more (Example page_navi="loadmore" posts_per_page="3" - show 3 items in the end after click button load more)</li>
+                    <li>page_navi=""  (Pagination), posts_per_page is number of items to show per page(Example page_navi="" posts_per_page="3" - show 3 items in per page).</li>
+                </ul>
+            </li>
+            <li>ids - List of IDs to query, separated by a comma(example ids="1,2,3")</li>
+            <li>cat - List of category ids (or slug), separated by a comma(example cat="designer" or cat="1")</li>
+            <li>fullcontent_in - type of display full content(Default fullcontent_in="", no display full content)
+            	<ul>
+                    <li>fullcontent_in="lightbox", full content display in lightbox(pop up in center screen)</li>
+                    <li>fullcontent_in="modal", full content display in pop up in the right screen</li>
+                </ul>
+            </li>
+            <li>search_box - Show or hide search and category filter(Default hidden)
+				<ul>
+                    <li>search_box="hide"</li>
+                    <li>search_box="show"</li>
+                </ul>
+            </li>
+            <li>alphab_filter - Show or hide alphabetical filter(Default hidden)
+				<ul>
+                    <li>alphab_filter="" - hide</li>
+                    <li>alphab_filter="yes" - show</li>
+                </ul>
+            </li>
+            <li>page_navi -  type of display(load more event or pagination) refer with param posts_per_page
+				<ul>
+                    <li>page_navi="loadmore", add items in the end after event load more </li>
+                    <li>page_navi="" ,Pagination</li>
+                </ul>
+            </li>
+            <li>number_excerpt - Enter number of excerpt to show(Default 10), example number_excerpt="20"</li>
+            <li>order - Order ascending (order="ASC") or descending (order="DESC")</li>
+            <li>orderby - Choose order condition
+            	<ul>
+                	<li>'date' - Order by date. </li>
+                	<li>'ID' - Order by post id. Note the captialization.</li>
+                    <li>'author' - Order by author. </li>
+                    <li>'title' - Order by title. </li>
+                    <li>'name' - Order by post name (post slug). </li>
+                    <li>'modified' - Order by last modified date. </li>
+                    <li>'parent' - Order by post/page parent id. </li>
+                    <li>'rand' - Random order. </li>
+                    <li>'menu_order' - Order by Page Order. Used most often for Pages (Order field in the Edit Page Attributes box) and for Attachments (the integer fields in the Insert / Upload Media Gallery dialog), but could be used for any post type with distinct 'menu_order' values (they all default to 0). </li>
+                    <li>'meta_value' - Note that a 'meta_key=keyname' must also be present in the query. Note also that the sorting will be alphabetical which is fine for strings (i.e. words), but can be unexpected for numbers (e.g. 1, 3, 34, 4, 56, 6, etc, rather than 1, 3, 4, 6, 34, 56 as you might naturally expect). Use 'meta_value_num' instead for numeric values. </li>
+                    <li>'meta_value_num' - Order by numeric meta value (available with Version 2.8). Also note that a 'meta_key=keyname' must also be present in the query. This value allows for numerical sorting as noted above in 'meta_value'.</li>
+                    <li>'post__in' - Preserve post ID order given in the ids array</li>
+                    <li>'none' - No order</li>
+                </ul>
+            </li>
+            <li>meta_key - Enter custom field key, Show posts associated with a certain custom field</li>
+        </ul>
+    </p>
+	<h5>Example: List style 3 with Pagination, Lightbox, Alphabetical Filter and Search(click <a href="https://exthemes.net/teampress/list-style-3/">here</a> to view detail demo)</h5>
+	<textarea disabled>[ex_tplist style="3" count="23" posts_per_page="3" fullcontent_in="lightbox" search_box="show" alphab_filter="yes"]</textarea>
+    <div class="teampress-demo-image" style="text-align: center;">
+	<img class="tp-image-shadow" src="assets/images/team_list_style_3.png" alt="" style="max-width:100%"/>
+	<img class="tp-image-shadow" src="assets/images/team_list_style_3_lightbox.png" alt="" style="max-width:100%"/>
+	</div>
+
+    <h5 id="shortcode-teampress-table"><b>Team Table</b></h5>
+    <p><i>Team table is a shortcode for displaying teampres on table .</i></p>
+    <textarea disabled>[ex_tptable style="" count="" posts_per_page="" ids="" cat="" fullcontent_in="" search_box="" alphab_filter="" page_navi="" number_excerpt="" live_sort="" orderby="" meta_key=""]
+    </textarea>
+    <p>
+    	<ul>
+        	<li>style - Select number style start 1 to 2(example style="1")</li>
+            <li>count - A number items will be showed. Default total items(Example: your team have 23 members but you only want to display 20 members, you can set count="20")</li>
+            <li>posts_per_page -  relates param page_navi
+				<ul>
+                    <li>page_navi="loadmore", posts_per_page is number of items to add in the end after event load more (Example page_navi="loadmore" posts_per_page="3" - show 3 items in the end after click button load more)</li>
+                    <li>page_navi=""  (Pagination), posts_per_page is number of items to show per page(Example page_navi="" posts_per_page="3" - show 3 items in per page).</li>
+                </ul>
+            </li>
+            <li>ids - List of IDs to query, separated by a comma(example ids="1,2,3")</li>
+            <li>cat - List of category ids (or slug), separated by a comma(example cat="designer" or cat="1")</li>
+            <li>fullcontent_in - type of display full content(Default fullcontent_in="", no display full content)
+            	<ul>
+                    <li>fullcontent_in="lightbox", full content display in lightbox(pop up in center screen)</li>
+                    <li>fullcontent_in="modal", full content display in pop up in the right screen</li>
+                </ul>
+            </li>
+            <li>search_box - Show or hide search and category filter(Default hidden)
+				<ul>
+                    <li>search_box="hide"</li>
+                    <li>search_box="show"</li>
+                </ul>
+            </li>
+            <li>alphab_filter - Show or hide alphabetical filter(Default hidden)
+				<ul>
+                    <li>alphab_filter="" - hide</li>
+                    <li>alphab_filter="yes" - show</li>
+                </ul>
+            </li>
+            <li>page_navi -  type of display(load more event or pagination) refer with param posts_per_page
+				<ul>
+                    <li>page_navi="loadmore", add items in the end after event load more </li>
+                    <li>page_navi="" ,Pagination</li>
+                </ul>
+            </li>
+            <li>number_excerpt - Enter number of excerpt to show(Default 10), example number_excerpt="20"</li>
+            <li>order - Order ascending (order="ASC") or descending (order="DESC")</li>
+            <li>orderby - Choose order condition
+            	<ul>
+                	<li>'date' - Order by date. </li>
+                	<li>'ID' - Order by post id. Note the captialization.</li>
+                    <li>'author' - Order by author. </li>
+                    <li>'title' - Order by title. </li>
+                    <li>'name' - Order by post name (post slug). </li>
+                    <li>'modified' - Order by last modified date. </li>
+                    <li>'parent' - Order by post/page parent id. </li>
+                    <li>'rand' - Random order. </li>
+                    <li>'menu_order' - Order by Page Order. Used most often for Pages (Order field in the Edit Page Attributes box) and for Attachments (the integer fields in the Insert / Upload Media Gallery dialog), but could be used for any post type with distinct 'menu_order' values (they all default to 0). </li>
+                    <li>'meta_value' - Note that a 'meta_key=keyname' must also be present in the query. Note also that the sorting will be alphabetical which is fine for strings (i.e. words), but can be unexpected for numbers (e.g. 1, 3, 34, 4, 56, 6, etc, rather than 1, 3, 4, 6, 34, 56 as you might naturally expect). Use 'meta_value_num' instead for numeric values. </li>
+                    <li>'meta_value_num' - Order by numeric meta value (available with Version 2.8). Also note that a 'meta_key=keyname' must also be present in the query. This value allows for numerical sorting as noted above in 'meta_value'.</li>
+                    <li>'post__in' - Preserve post ID order given in the ids array</li>
+                    <li>'none' - No order</li>
+                </ul>
+            </li>
+            <li>meta_key - Enter custom field key, Show posts associated with a certain custom field</li>
+            <li>live_sort - Show or hide sort
+				<ul>
+                    <li>live_sort="" - hide</li>
+                    <li>live_sort="1" - show</li>
+                </ul>
+            </li>
+        </ul>
+    </p>
+    <h5>Example: Table style 1 with Load more and Modal(click <a href="https://exthemes.net/teampress/table-style-1/">here</a> to view detail demo)</h5>
+	<textarea disabled>[ex_tptable count="23" posts_per_page="4" fullcontent_in="modal" page_navi="loadmore"]</textarea>
+    <div class="teampress-demo-image" style="text-align: center;">
+		<img class="tp-image-shadow" src="assets/images/team_table_style_1.png" alt="" style="max-width:100%"/>
+		<img class="tp-image-shadow" src="assets/images/team_table_style_1_modal.png" alt="" style="max-width:100%"/>
+	</div>
+
+	<h5 id="shortcode-teampress-carousel"><b>Team Carousel</b></h5>
+    <p><i>Team Carousel is a shortcode for displaying teampres on slider .</i></p>
+    <textarea disabled>[ex_tpcarousel  style="" count="" slidesshow="" ids="" cat="" fullcontent_in="" number_excerpt="" orderby="" meta_key="" autoplay="" autoplayspeed="" loading_effect="" infinite=""]
+    </textarea>
+    <p>
+    	<ul>
+        	<li>style - Select number style start 1 to 2 and img-1 to img-10(example style="1")</li>
+            <li>count - A number items will be showed. Default total items(Example: your team have 23 members but you only want to display 20 members, you can set count="20")</li>
+            <li>slidesshow -  number items per slide (Default:3)</li>
+            <li>ids - List of IDs to query, separated by a comma(example ids="1,2,3")</li>
+            <li>cat - List of category ids (or slug), separated by a comma(example cat="designer" or cat="1")</li>
+            <li>fullcontent_in - type of display full content(Default fullcontent_in="", no display full content)
+            	<ul>
+                    <li>fullcontent_in="lightbox", full content display in lightbox(pop up in center screen)</li>
+                    <li>fullcontent_in="modal", full content display in pop up in the right screen</li>
+                </ul>
+            </li>
+            <li>number_excerpt - Enter number of excerpt to show(Default 10), example number_excerpt="20"</li>
+            <li>order - Order ascending (order="ASC") or descending (order="DESC")</li>
+            <li>orderby - Choose order condition
+            	<ul>
+                	<li>'date' - Order by date. </li>
+                	<li>'ID' - Order by post id. Note the captialization.</li>
+                    <li>'author' - Order by author. </li>
+                    <li>'title' - Order by title. </li>
+                    <li>'name' - Order by post name (post slug). </li>
+                    <li>'modified' - Order by last modified date. </li>
+                    <li>'parent' - Order by post/page parent id. </li>
+                    <li>'rand' - Random order. </li>
+                    <li>'menu_order' - Order by Page Order. Used most often for Pages (Order field in the Edit Page Attributes box) and for Attachments (the integer fields in the Insert / Upload Media Gallery dialog), but could be used for any post type with distinct 'menu_order' values (they all default to 0). </li>
+                    <li>'meta_value' - Note that a 'meta_key=keyname' must also be present in the query. Note also that the sorting will be alphabetical which is fine for strings (i.e. words), but can be unexpected for numbers (e.g. 1, 3, 34, 4, 56, 6, etc, rather than 1, 3, 4, 6, 34, 56 as you might naturally expect). Use 'meta_value_num' instead for numeric values. </li>
+                    <li>'meta_value_num' - Order by numeric meta value (available with Version 2.8). Also note that a 'meta_key=keyname' must also be present in the query. This value allows for numerical sorting as noted above in 'meta_value'.</li>
+                    <li>'post__in' - Preserve post ID order given in the ids array</li>
+                    <li>'none' - No order</li>
+                </ul>
+            </li>
+            <li>meta_key - Enter custom field key, Show posts associated with a certain custom field</li>
+            <li>autoplay - Auto next slide or not
+				<ul>
+                    <li>autoplay="" - not auto</li>
+                    <li>autoplay="1" - auto</li>
+                </ul>
+            </li>
+            <li>autoplayspeed - Autoplay Speed in milliseconds. Default:3000, it work only autoplay="1"(example autoplay="1" autoplayspeed="1000")
+            </li>
+            <li>loading_effect - Enable or disable effect when loading
+				<ul>
+                    <li>loading_effect="" - no effect</li>
+                    <li>loading_effect="1" - apply effect</li>
+                </ul>
+            </li>
+            <li>infinite - Infinite loop sliding ( go to first item when end loop)
+				<ul>
+                    <li>infinite="" - not infinite</li>
+                    <li>infinite="yes" - infinite</li>
+                </ul>
+            </li>
+        </ul>
+    </p>
+    <h5>Example: Corousel style 10 with 4 items visible, Auto play(defalt 3 seconds), Modal and Infinite( go to first item when end loop) click <a href="https://exthemes.net/teampress/carousel-style-10/">here</a> to view detail demo</h5>
+	<textarea disabled>[ex_tpcarousel style="10" count="10" slidesshow="5" autoplay="1" autoplayspeed="1000" infinite="yes"]</textarea>
+    <div class="teampress-demo-image" style="text-align: center;">
+	<img class="tp-image-shadow" src="assets/images/team_carousel_style_10.png" alt="" style="max-width:100%"/>
+	</div>
+
+    <h5 id="shortcode-teampress-mansory"><b>TeamPress Mansory</b></h5>
+	<p><i>TeamPress Mansory is a shortcode for displaying teampress apply mansory layout.</i></p>
+	<textarea disabled>[ex_tpgrid style="" column="" count="" posts_per_page="" ids="" cat="" fullcontent_in="" search_box="" alphab_filter="" page_navi="" number_excerpt="" masonry="yes" order=""  orderby="" meta_key=""]
+	</textarea>
+	<p>
+    	<ul>
+        	<li>style - Select number style(Default 1)
+                <ul>
+                    <li>Team grid - stye start 1 to 20 (example style="1")</li>
+                    <li>Team Image hover grid -stye start img-1 to img-10 (example style="img-1")</li>
+                </ul>
+            </li>
+            <li>column - A number of items to show per line. Default 2</li>
+            <li>count - A number items will be showed. Default total items(Example: your team have 23 members but you only want to display 20 members, you can set count="20")</li>
+            <li>posts_per_page -  relates param page_navi
+				<ul>
+                    <li>page_navi="loadmore", posts_per_page is number of items to add in the end after event load more (Example page_navi="loadmore" posts_per_page="3" - show 3 items in the end after click button load more)</li>
+                    <li>page_navi=""  (Pagination), posts_per_page is number of items to show per page(Example page_navi="" posts_per_page="3" - show 3 items in per page).</li>
+                </ul>
+            </li>
+            <li>ids - List of IDs to query, separated by a comma(example ids="1,2,3")</li>
+            <li>cat - List of category ids (or slug), separated by a comma(example cat="designer" or cat="1")</li>
+            <li>fullcontent_in - type of display full content(Default fullcontent_in="", no display full content)
+            	<ul>
+                    <li>fullcontent_in="lightbox", full content display in lightbox(pop up in center screen)</li>
+                    <li>fullcontent_in="collapse", full content display in collapse after items</li>
+                    <li>fullcontent_in="modal", full content display in pop up in the right screen</li>
+                </ul>
+            </li>
+            <li>search_box - Show or hide search and category filter(Default hidden)
+				<ul>
+                    <li>search_box="hide"</li>
+                    <li>search_box="show"</li>
+                </ul>
+            </li>
+            <li>alphab_filter - Show or hide alphabetical filter(Default hidden)
+				<ul>
+                    <li>alphab_filter="" - hide</li>
+                    <li>alphab_filter="yes" - show</li>
+                </ul>
+            </li>
+            <li>page_navi -  type of display(load more event or pagination) refer with param posts_per_page
+				<ul>
+                    <li>page_navi="loadmore", add items in the end after event load more </li>
+                    <li>page_navi="" ,Pagination</li>
+                </ul>
+            </li>
+            <li>number_excerpt - Enter number of excerpt to show(Default 10), example number_excerpt="20"</li>
+            <li>order - Order ascending (order="ASC") or descending (order="DESC")</li>
+            <li>orderby - Choose order condition
+            	<ul>
+                	<li>'date' - Order by date. </li>
+                	<li>'ID' - Order by post id. Note the captialization.</li>
+                    <li>'author' - Order by author. </li>
+                    <li>'title' - Order by title. </li>
+                    <li>'name' - Order by post name (post slug). </li>
+                    <li>'modified' - Order by last modified date. </li>
+                    <li>'parent' - Order by post/page parent id. </li>
+                    <li>'rand' - Random order. </li>
+                    <li>'menu_order' - Order by Page Order. Used most often for Pages (Order field in the Edit Page Attributes box) and for Attachments (the integer fields in the Insert / Upload Media Gallery dialog), but could be used for any post type with distinct 'menu_order' values (they all default to 0). </li>
+                    <li>'meta_value' - Note that a 'meta_key=keyname' must also be present in the query. Note also that the sorting will be alphabetical which is fine for strings (i.e. words), but can be unexpected for numbers (e.g. 1, 3, 34, 4, 56, 6, etc, rather than 1, 3, 4, 6, 34, 56 as you might naturally expect). Use 'meta_value_num' instead for numeric values. </li>
+                    <li>'meta_value_num' - Order by numeric meta value (available with Version 2.8). Also note that a 'meta_key=keyname' must also be present in the query. This value allows for numerical sorting as noted above in 'meta_value'.</li>
+                    <li>'post__in' - Preserve post ID order given in the ids array</li>
+                    <li>'none' - No order</li>
+                </ul>
+            </li>
+            <li>meta_key - Enter custom field key, Show posts associated with a certain custom field</li>
+            <li>masonry -  Apply mansory layout or not
+				<ul>
+                    <li>masonry="yes", apply </li>
+                    <li>masonry="" ,not apply</li>
+                </ul>
+            </li>
+        </ul>
+    </p>
+	<h5>Example: Team Grid with Mansory and Lightbox(click <a href="https://exthemes.net/teampress/team-mansory/">here</a> to view detail demo)</h5>
+	<textarea disabled>[ex_tpgrid style="1" column="4" count="23" posts_per_page="6" fullcontent_in="lightbox" page_navi="loadmore" masonry="yes"]</textarea>
+    <div class="teampress-demo-image" style="text-align: center;">
+	<img class="tp-image-shadow" src="assets/images/team_mansory_style_1.png" alt="" style="max-width:100%"/>
+	</div>
+    <hr>
+    
+</section>
+<section id="shortcode-builder">
+    <div class="page-header"><h3>Shortcode builder</h3><hr class="notop"></div>
+    <p>1. Go to Team > Shortcode builder</p>
+    <img class="tp-image-shadow" src="assets/images/shortcode_builder_1.png" alt="" style="max-width:100%"/>
+    <p>2. Config shortcode option as you wan to show > Click Publish button</p>
+    <p>With Selection Tyle has 4 items(Grid,Table,List, Carousel) please refer <a href="#shortcode">Short code</a> document for more detail about each param</p>
+    <img class="tp-image-shadow" src="assets/images/shortcode_builder_2.png" alt="" style="max-width:100%"/>
+    <p>3. Copy shortcode and paste it into your post, page, or text widget content</p>
+    <img class="tp-image-shadow" src="assets/images/shortcode_builder_3.png" alt="" style="max-width:100%"/>
+    <hr>
+</section>
+
+<section id="general-setting">
+    <div class="page-header"><h3>General Setting</h3><hr class="notop"></div>
+    <p>1. Go to Team > Setting</p>
+    <img class="tp-image-shadow" src="assets/images/general_setting.png" alt="" style="max-width:100%"/>
+    <p>2. Display</p>
+    <img class="tp-image-shadow" src="assets/images/display_setting3.png" alt="" style="max-width:100%"/>
+    <p>When disable social account</p>
+    <img class="tp-image-shadow" src="assets/images/display_setting2.png" alt="" style="max-width:100%"/>
+    <hr>
+</section>
+
+<section id="usage">
+	<div class="page-header"><h3>Usage</h3><hr class="notop"></div>
+    <p>Simple: go to any place which accepts shortcode, for example Post or Page. Input shortcode or you can use visual composer to config.</p>
+    <p><b>Classic editor button</b></p>
+    <img class="tp-image-shadow" src="assets/images/usage_1.png" alt="" style="max-width:100%"/>
+    <p><b>You also can use Vissual composer to config</b></p>
+    <img class="tp-image-shadow" src="assets/images/usage_2.png" alt="" style="max-width:100%"/>
+    <hr>
+</section>
+
+<section id="translation">
+	<div class="page-header"><h3>Translation</h3><hr class="notop"></div>
+    <p><strong>The plugin is translation ready, please follow the steps bellow:</strong></p>
+    <p>To translate front end, you can go to Timeline Settings page > Front end static text</p>
+    <img src="assets/images/frontend text.png" alt="" style="max-width:100%"/>
+    <p>To translate all static text (front end & back end) you can follow this guide</p>
+    <ul>
+        <li>1. Download and install Poedit</li>
+        <li>2. Open POEdit and load "/wp-timeline/language/wp-timeline.po"</li>
+        <li>3. Translate the text and save the file.</li>
+        <li>4. A file named language.mo is created. Rename it with Code Name of your language. For example, wp-timeline-de_DE.mo for German - Deutsche.<br>
+        All languages codes can be found here:<br>
+        http://www.gnu.org/software/gettext/manual/gettext.html#Language-Codes<br>
+        and all countries codes can be found here:<br>
+        http://www.gnu.org/software/gettext/manual/gettext.html#Country-Codes</li>
+        <li>5. (For WordPress 3.x)Open [{wordpress root}/wp_config.php] and find this line define('WPLANG', '');. Change it with your language code, for example define('WPLANG', 'de_DE');</li>
+        <li>5. (For WordPress 4.x) Go to Settings > General and change your site language</li>
+    </ul>
+    <hr>
+</section>
+<section id="sources_and_credits">
+	<div class="page-header"><h3>Sources and Credits</h3><hr class="notop"></div>
+<p>I&#39;ve used the following images, icons or other files as listed.</p>
+<ul>
+    <li><a href="https://pixabay.com/" target="_blank">Free Photos</a> - by Pixabay</li>
+    <li><a href="http://fontawesome.io/icons/" target="_blank">Font Awesome</a> - MIT License</li>
+    <li><a href="https://github.com/CMB2/CMB2" target="_blank">CMB2</a> - GPL V2 License</li>
+    <li><a href="https://github.com/inuyaksa/jquery.nicescroll" target="_blank">Nicescroll jQuery Plugin</a> - MIT License</li>
+    <li><a href="https://github.com/inuyaksa/jquery.nicescroll" target="_blank">GLightbox</a> - MIT License</li>
+    <li><a href="https://github.com/kenwheeler/slick/" target="_blank">Slick</a> - MIT License</li>
+</ul>
+<hr />
+<p>Once again, thank you so much for purchasing this plugin. As I said at the beginning, I'd be glad to help you if you have any questions relating to this plugin. No guarantees, but I'll do my best to assist. If you have a more general question relating to the plugin on Codecanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+<p><strong>ExThemes</strong></p>
+</section>
+
+	</div>
+</body>
+</html>
